@@ -9,5 +9,5 @@ branches:
   - devel
 
 script:
-- make -j32 test
+- make test
 
