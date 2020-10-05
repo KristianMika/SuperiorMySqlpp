@@ -6,4 +6,4 @@ make
 socat
 libboost-all-dev
 libboost-dev
-libboost-system
+libboost-system-dev
