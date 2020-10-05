@@ -5,3 +5,5 @@ equivs
 make
 socat
 libboost-dev
+libboost-system
+libboost1.71-dev
