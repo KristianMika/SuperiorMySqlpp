@@ -1,8 +1,7 @@
 devscripts
 aptitude
 apt-transport-https
-dpkg-dev
 equivs
 make
 socat
-libboost-system-dev
+libboost-dev
