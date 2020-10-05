@@ -4,10 +4,13 @@ sudo: required
 services: docker
 
 branches:
-  only:
-  - master
-  - devel
+    only:
+        - master
+        - devel
 
+before_script:
+    - sudo apt update && sudo apt install socat
 script:
-- make test
+    - make install
+    - make test
 
