@@ -4,3 +4,5 @@ apt-transport-https
 dpkg-dev
 equivs
 make
+socat
+libboost-dev
