@@ -6,4 +6,4 @@ make
 socat
 g++
 libmysqlclient-dev
-libboost-system-dev (>= 1.49.0)
+libboost-system-dev
