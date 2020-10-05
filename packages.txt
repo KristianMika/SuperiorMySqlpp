@@ -1,8 +1,6 @@
-git
 devscripts
 aptitude
 apt-transport-https
 dpkg-dev
 equivs
 make
-socat
