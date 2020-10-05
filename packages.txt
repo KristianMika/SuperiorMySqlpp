@@ -4,6 +4,6 @@ apt-transport-https
 equivs
 make
 socat
-libboost-all-dev
-libboost-dev
-libboost-system-dev
+g++
+libmysqlclient-dev
+libboost-system-dev (>= 1.49.0)
