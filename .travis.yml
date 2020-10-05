@@ -9,8 +9,7 @@ branches:
         - devel
 
 before_script:
-    - sudo apt update && sudo apt install socat
+    - sudo apt update && cat packages.txt | xargs sudo apt install
 script:
-    - make install
     - make test
 
