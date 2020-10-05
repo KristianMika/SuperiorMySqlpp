@@ -11,7 +11,7 @@ branches:
         - writing-yml
 
 before_script:
-    - sudo apt update && cat packages.txt | xargs sudo apt install
+    - sudo apt update && cat packages.txt | xargs sudo apt install --assume-yes
 script:
     - make test
 
