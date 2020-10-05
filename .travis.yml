@@ -7,6 +7,8 @@ branches:
     only:
         - master
         - devel
+          # TODO: REMOVE WRITING-YML BRANCH
+        - writing-yml
 
 before_script:
     - sudo apt update && cat packages.txt | xargs sudo apt install
