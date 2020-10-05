@@ -4,6 +4,6 @@ apt-transport-https
 equivs
 make
 socat
+libboost-all-dev
 libboost-dev
 libboost-system
-libboost1.71-dev
