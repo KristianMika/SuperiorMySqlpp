@@ -1,6 +1,6 @@
 language: cpp
 os: linux
-dist: focal
+dist: bionic
 sudo: required
 services: docker
 

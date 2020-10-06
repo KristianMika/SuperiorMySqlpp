@@ -1,4 +1,5 @@
 devscripts
+dpkg-dev
 aptitude
 apt-transport-https
 equivs
