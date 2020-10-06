@@ -14,5 +14,5 @@ branches:
 before_script:
     - sudo apt update && cat packages.txt | xargs sudo apt install --assume-yes
 script:
-    - make test
+    - sudo make test
 
